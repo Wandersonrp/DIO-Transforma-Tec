@@ -1,9 +1,3 @@
-# Exercícios de HTML da turma da tarde
+# Exercícios do Programa Transforma Tec
 
-## Lista de Exercícios
-
-### Contidos dentro da pasta public
-
-- Exercício 1
-- Exercício 2
-- Exercício 3
+Exercícios propostos nas aulas do programa Transfoma Tec.
