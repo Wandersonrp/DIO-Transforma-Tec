@@ -1,7 +1,13 @@
 .h1 {
     color: red;
 }
-
 .p {
-    color: lime
+    color: lime;
+}
+.body {
+    background-color: aquamarine;
+}
+
+.body02 {
+    background-color: yellow;
 }
