@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira página com estilização com seletores</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: rgb(206, 239, 251);
+            margin: 10px;
+            border: 1px solid navy;
+        }
+
+        p[name="par3"], p[name="par2"]{
+            color:red;
+        }
+
+        .colorido2 {
+            background-color: darkgreen;
+        }
+
+        .dimensao{
+            width: 400px;
+            height: 200px;
+        }
+        
+        .colorido {
+            background-color: black;
+        }
+
+        .letra {
+            color:midnightblue;
+        }
+
+        input:hover {
+            background-color:blue;
+        }
+
+        #myDiv:hover{
+            background-color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <div id="myDiv">
+        <p name="par1" class="letra">Conteúdo de texto dentro da primeira div</p>
+    </div>
+    <div>
+        <p name="par2">Conteúdo de texto dentro da segunda div</p>
+    </div>
+    <div class="dimensao colorido">
+        <p name="par3"">Conteúdo de texto dentro da terceira div</p>
+    </div>
+    <input type="submit" value="Enviar">
+</body>
+</html>
