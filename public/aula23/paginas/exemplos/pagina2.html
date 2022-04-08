@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            background-color: aquamarine;
+        }
+        h1 {
+            color: midnightblue;
+            font-family: monospace;
+        }
+        p {
+            color:mediumblue;
+            font-family: monospace;
+        }
+
+        /*resolução em celulares*/
+        @media screen and (max-width: 768px) {
+            div {
+                background-color:aliceblue;
+            }
+            h1 {
+                color: chocolate;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            p {
+                color: darkolivegreen;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+        }
+        /*resolução em tablets*/
+        @media screen and (min-width: 768px) and (max-width: 1024px) {
+            div {
+                background-color: ivory;
+            }
+            h1 {
+                color:maroon;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            p {
+                color:magenta;
+                font-family: cursive;
+            }
+        }
+        /*resolução em desktop*/
+        @media screen and (min-width: 1024px) {
+            div {
+                background-color:dodgerblue;
+            }
+            h1 {
+                color:firebrick;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            p {
+                color: mediumseagreen;
+                font-family: initial;
+            }
+        }
+        /*resolução em desktop de alta resolução*/
+        @media screen and (min-width: 1280px) {
+            div {
+                background-color:khaki;
+            }
+            h1 {
+                color:black;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            p {
+                color: peachpuff;
+                font-family: initial;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Segunda Página</h1>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium impedit minus quam dolorum rerum beatae atque iusto, magni necessitatibus, id quibusdam omnis, recusandae sequi asperiores nesciunt. Aperiam, libero? Voluptates, rem?
+        </p>
+    </div>
+</body>
+</html>
